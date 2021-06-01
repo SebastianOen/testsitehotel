@@ -79,10 +79,18 @@ header {
   background: $secondary-color;
   width: 100vw;
   padding: 20px 0;
+  min-height: 600px;
 
   img {
     height: auto;
-    position: relative;
+    position: absolute;
     left: 460px;
+    width: 800px;
+  }
+
+  &__txt {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
   }
 }
